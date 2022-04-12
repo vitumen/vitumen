@@ -1,17 +1,17 @@
-$charcolor: #ffffff;
+$charcolor: black;
 body {
-    background: #1b1d1e;
+    background: white;
 
     #terminal {
-        color: $charcolor;
+        color: black;
     }
 
     #user {
-        color: #00ff9d;
+        color: black;
     }
 
     #dir {
-        color: #ff9500;
+        color: black;
     }
 
     .Typewriter__cursor {
