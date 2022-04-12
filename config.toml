@@ -14,7 +14,7 @@ publishDir = 'docs'
   # Note: hugo-theme-shell original: ["shell-powershell", "shell-ubuntu", "shell-retro"]
   # Note: or
   # Note: gogh theme: https://mayccoll.github.io/Gogh/
-  scheme = "Molokai"
+  scheme = "monokai"
 
   # Note: in terminal
   # [userName]@[pcName]:~/$ cd [workDir]
