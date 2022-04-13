@@ -31,6 +31,7 @@ publishDir = 'docs'
   pcName = "linux"
   workDir = "archivos"
   profile = "perfil.txt"
+  profile2 = "e-mail.txt"
 
   # Note: speed at which text is displayed on the terminal
   # Note: if set to 0, typing animation will be disabled
@@ -56,6 +57,10 @@ publishDir = 'docs'
   description = """
   Hola, soy vitumen
   Hago cosas por plata.
+
+  """
+  description2 = """
+  vitumen@gmail.com
   
   """
 
@@ -74,4 +79,5 @@ publishDir = 'docs'
     ["Alejandro Noboa", "http://alejandronoboa.uy/"],
     ["Salto Sale", "http://saltosale.com/"],
   ]
+  
   
