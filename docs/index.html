@@ -653,11 +653,13 @@ body{background:#1b1d1e}body #terminal{color:#fff}body #user{color:#00ff9d}body 
 
     <span id="ps1_01"></span> <span id="cd"></span> <br>
 <span id="ps1_02"></span> <span id="cat"></span> <br>
+<br>
 <span id="std_out_01"></span> <br>
 <span id="ps1_03"></span> <span id="tree"></span> <br>
 <span id="std_out_02"></span> <br>
 <br>
 <span id="ps1_04"></span> <span id="cat2"></span> <br>
+<br>
 <span id="std_out_03"></span> <br>
 
 
@@ -711,11 +713,11 @@ body{background:#1b1d1e}body #terminal{color:#fff}body #user{color:#00ff9d}body 
     const typeeffetct = async () => {
         await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003evitumen@linux\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_01", ps1Delay); await typewriter("\u003cspan id=\u0027terminal\u0027\u003ecd archivos\u003c\/span\u003e", "cd", commandDelay);
         await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003evitumen@linux\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/archivos\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_02", ps1Delay); await typewriter("\u003cspan id=terminal\u003ecat perfil.txt\u003c\/span\u003e", "cat", commandDelay);
-        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e  Hola, soy vitumen\u003cbr\u003e  Hago cosas por plata.\u003cbr\u003e\n  \u003c\/span\u003e", "std_out_01", stdoutDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e  Hola soy vitumen\u003cbr\u003e  Hago cosas por plata :)\u003cbr\u003e  \n  \u003c\/span\u003e", "std_out_01", stdoutDelay);
         await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003evitumen@linux\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/archivos\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_03", ps1Delay); await typewriter("\u003cspan id=\u0027terminal\u0027\u003etree .\/laburos\/\u003c\/span\u003e", "tree", commandDelay);
         await typewriter("\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cspan id=\u0027terminal\u0027\u003e\u003cstrong\u003e\u003cspan id=\u0027dir\u0027\u003e.\/laburos\/\u003c\/span\u003e\u003c\/strong\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/www.facebook.com\/paraproductora\u0027\u003ePará Productora\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e├── \u003ca href=\u0027http:\/\/gepade.edu.uy\/\u0027\u003eGepade\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e├── \u003ca href=\u0027https:\/\/playradio.uy\/\u0027\u003eRadio Play\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e├── \u003ca href=\u0027http:\/\/alejandronoboa.uy\/\u0027\u003eAlejandro Noboa\u003c\/a\u003e\u003c\/span\u003e\u003cbr\u003e└── \u003ca href=\u0027http:\/\/saltosale.com\/\u0027\u003eSalto Sale\u003c\/a\u003e\u003c\/span\u003e", "std_out_02", stdoutDelay);       
         await typewriter("\u003cstrong\u003e\u003cspan id=\u0027user\u0027\u003evitumen@linux\u003c\/span\u003e\u003cspan id=\u0027terminal\u0027\u003e:\u003c\/span\u003e\u003cspan id=\u0027dir\u0027\u003e~\/archivos\u003c\/span\u003e\u003c\/strong\u003e\u003cspan id=\u0027terminal\u0027\u003e$\u003c\/span\u003e", "ps1_04", ps1Delay); await typewriter("\u003cspan id=terminal\u003ecat e-mail.txt\u003c\/span\u003e", "cat2", commandDelay);        
-        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e  vitumen@gmail.com\n  \n  \u003c\/span\u003e", "std_out_03", stdoutDelay);
+        await typewriter("\u003cspan id=\u0027terminal\u0027\u003e  └── mail (@) vitu.men ──┐\n  \n  \u003c\/span\u003e", "std_out_03", stdoutDelay);
         return;
     }
 

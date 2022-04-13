@@ -55,14 +55,17 @@ publishDir = 'docs'
   # activityDelay = 5 : deprecated
 
   description = """
-  Hola, soy vitumen
-  Hago cosas por plata.
-
-  """
-  description2 = """
-  vitumen@gmail.com
+  Hola soy vitumen
+  Hago cosas por plata :)
   
   """
+
+  description2 = """
+  └── mail (@) vitu.men ──┐
+  
+  """
+  
+  
 
   # Note: If you want to use a Markdown file, you can use the following
   # description = "/description.md"
